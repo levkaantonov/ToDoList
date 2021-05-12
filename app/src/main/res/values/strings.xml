@@ -2,4 +2,10 @@
     <string name="app_name">ToDoList</string>
     <string name="task_name">Название задачи</string>
     <string name="important_task">Важная задача</string>
+    <string name="menu_title_search">Search</string>
+    <string name="menu_title_sort">Sort</string>
+    <string name="menu_title_sort_by_name">Sort by name</string>
+    <string name="menu_title_sort_by_created_date">Sort by date created</string>
+    <string name="menu_title_hide_completed">Hide completed</string>
+    <string name="menu_title_delete_all_completed_tasks">Delete all completed tasks</string>
 </resources>
