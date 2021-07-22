@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:name=".TasksApplication"
         android:theme="@style/Theme.ToDoList">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
