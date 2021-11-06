@@ -47,11 +47,9 @@ class TasksFragment : Fragment() {
             override fun onItemClick(task: Task) {
                 viewModel.onTaskSelected(task)
             }
-
             override fun onCheckBoxClick(task: Task, isChecked: Boolean) {
                 viewModel.onTaskCheckedChange(task, isChecked)
             }
-
         })
 
         binding.apply {
